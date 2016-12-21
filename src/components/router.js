@@ -1,6 +1,6 @@
 'use strict';
 
-import About from './about';
+import Settings from './settings';
 import App from './app';
 import Index from './index';
 import NewPerson from './new-person';
@@ -14,7 +14,7 @@ export default React.createClass({
       <Router>
         <Route name="root" path="/" component={App}>
           <IndexRoute name="index" component={Index} />
-          <Route name="about" path="about" component={About}/>
+          <Route name="settings" path="settings" component={Settings}/>
           <Route name="new-person" path="new-person" component={NewPerson}/>
           <Route path="*" component={NoMatch}/>
         </Route>

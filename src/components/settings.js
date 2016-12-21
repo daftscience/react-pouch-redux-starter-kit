@@ -5,7 +5,7 @@ import React from 'react';
 export default React.createClass({
   render() {
     return (
-      <h3>About</h3>
+      <h3>Settings</h3>
     );
   }
 });
